@@ -12,12 +12,11 @@ header {
     align-items: center;
     padding: 0 50px;
     height: 60px;
-    width: 95vw;
     background: transparent;
     
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 0; 
-    position: sticky; 
+    position: fixed; 
     top: 0;
     left: 0;
     z-index: 10;
