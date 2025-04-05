@@ -1,11 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
 body {
-    margin: 0;
     font-family: 'Courier New', Courier, monospace;
     background: linear-gradient(135deg, #ffafbd, #ffc3a0);
     overflow-x: hidden;
