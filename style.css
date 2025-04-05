@@ -12,15 +12,18 @@ header {
     align-items: center;
     padding: 0 50px;
     height: 60px;
+    width: 95vw;
     background: transparent;
     
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 0; 
     position: sticky; 
     top: 0;
+    left: 0;
     z-index: 10;
     font-size: large;
 }
+
 
 header .logo {
     font-size: 1.8rem;
@@ -87,7 +90,7 @@ header ul li:hover {
 
 .slider {
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     position: relative;
     overflow: hidden;
     margin-top: -50px;
@@ -236,11 +239,11 @@ header ul li:hover {
     height: var(--height-can);
     width: var(--width-can);
     background: 
-        url(img/can.png) 0 0 no-repeat,
-        url(img/soda.png) var(--left) 0;
+        url(img/can.webp) 0 0 no-repeat,
+        url(img/soda.webp) var(--left) 0;
     background-size: auto 100%;
     background-blend-mode: multiply;
-    -webkit-mask-image: url(img/can.png);
+    -webkit-mask-image: url(img/can.webp);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: auto 100%;
     transition: background 0.5s;
